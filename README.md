@@ -3,7 +3,7 @@
 <br>
 
 
-![django](https://user-images.githubusercontent.com/40533390/85207841-5b104980-b349-11ea-9004-76bbbcc68f2a.png)
+![HOME Page](https://user-images.githubusercontent.com/40533390/93331953-afd73980-f83e-11ea-8ed0-57ec75bd0dcd.png)
 
 <h2>Getting Started</h2>
 <p>Steps:</p>
