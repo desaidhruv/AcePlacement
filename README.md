@@ -2,8 +2,8 @@
 <p>🏢Website developed for training and placement office to help them organize and motivate students much more efficiently. Also, to help them get better job opportunities.</p>
 <br>
 
+![HOME Page (1)](https://user-images.githubusercontent.com/40533390/93332264-37bd4380-f83f-11ea-9826-e0b3266685df.png)
 
-![django](https://user-images.githubusercontent.com/40533390/85207841-5b104980-b349-11ea-9004-76bbbcc68f2a.png)
 
 <h2>Getting Started</h2>
 <p>Steps:</p>
