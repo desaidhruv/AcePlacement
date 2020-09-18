@@ -6,10 +6,4 @@ ul {
     list-style-type: none;
 }
 
-.notification {
-  position: relative;
-    bottom:20px;
-    right:10px;
-    z-index:5;
-    width:350px;
-}
+
