@@ -18,7 +18,7 @@
     <div class="tile is-parent">
         <div class="tile is-child box">
             <p class="title">Apply for job:</p>
-            <form action="/register_job_submit/" method="POST">
+            <form action="{% url 'TPO_app:register_job_submit'%}" method="POST">
                 {% csrf_token %}
                 <div class="field">
                     <label class="label">Username</label>
