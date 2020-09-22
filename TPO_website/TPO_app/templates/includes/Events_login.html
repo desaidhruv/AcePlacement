@@ -4,7 +4,7 @@
     <div class="tile is-parent">
         <div class="tile is-child " id="events">
             {% if user.is_superuser %}
-            <a href="/upcoming_events">
+            <a href="{% url 'TPO_app:upcoming_events' %}">
                 <button class="button is-light is-outlined is-pulled-right"
                     style="background-color: rgba(105, 0, 255, 0.11);color: #6900FF;"><strong><i class="fa fa-plus-circle" aria-hidden="true"></i>  Add Events</strong></button>
             </a>
