@@ -9,7 +9,7 @@
 <br>
 <!-- COMPANY STARTS -->
 {% if user.is_superuser %}
-<a href="/add_company">
+<a href="{% url 'TPO_app:add_company' %}">
     <button class="button is-light is-outlined is-pulled-right"
         style="background-color: rgba(105, 0, 255, 0.11);color: #6900FF;"><strong><i class="fa fa-plus-circle"
                 aria-hidden="true"></i> Add Company</strong></button>
@@ -34,7 +34,7 @@
                                 <div class="content">
                                     <p>Salary: <strong>10-12 LPA</strong> </p>
                                     <p>Role: <strong>SDE</strong></p>
-                                    <a href="/register_job">
+                                    <a href="{% url 'TPO_app:register_job' %}">
                                         <button class="button is-light is-outlined mt-3 is-pulled-right"
                                             style="background-color: rgba(105, 0, 255, 0.11);color: #6900FF;"><strong>Apply
                                                 Now</strong></button>
@@ -59,7 +59,7 @@
                                 <div class="content">
                                     <p>Salary:<strong>8-10 LPA</strong></p>
                                     <p>Role: <strong>Business Analyst</strong></p>
-                                    <a href="/register_job">
+                                    <a href="{% url 'TPO_app:register_job' %}">
                                         <button class="button is-light is-outlined mt-3 is-pulled-right"
                                             style="background-color: rgba(105, 0, 255, 0.11);color: #6900FF;"><strong>Apply
                                                 Now</strong></button>
@@ -84,7 +84,7 @@
                                 <div class="content">
                                     <p>Salary:<strong>12-14 LPA</strong></p>
                                     <p>Role: <strong>SDE</strong></p>
-                                    <a href="/register_job">
+                                    <a href="{% url 'TPO_app:register_job' %}">
                                         <button class="button is-light is-outlined mt-3 is-pulled-right"
                                             style="background-color: rgba(105, 0, 255, 0.11);color: #6900FF;"><strong>Apply
                                                 Now</strong></button>
@@ -109,7 +109,7 @@
                                 <div class="content">
                                     <p>Salary:<strong>10-12 LPA</strong></p>
                                     <p>Role: <strong>SDE</strong></p>
-                                    <a href="/register_job">
+                                    <a href="{% url 'TPO_app:register_job' %}">
                                         <button class="button is-light is-outlined mt-3 is-pulled-right"
                                             style="background-color: rgba(105, 0, 255, 0.11);color: #6900FF;"><strong>Apply
                                                 Now</strong></button>
